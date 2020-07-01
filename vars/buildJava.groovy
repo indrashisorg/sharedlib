@@ -1,8 +1,4 @@
 def call(){
-stage('Test') {
-            steps {
+echo "Entering into lib"
 		     sh 'mvn -f HelloWorldJava/pom.xml install'
-				
-            }
-        }
 }
